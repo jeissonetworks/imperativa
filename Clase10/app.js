@@ -9,7 +9,7 @@ let arrayCorreosPendientes = ['iroman@digitalhouse.com','loki%digitalhouse.com',
       
   function verificarCorreo(arraycorreo){
            //tu código  
-           for (let step = 0; step < 5; step++) {
+           for (let step = 0; step < arraycorreo.length; step++) {
            if (arraycorreo[step].indexOf('@') !== -1) {
                 arrayCorreosAdmitidos.push(arraycorreo[step]) 
            } else {
